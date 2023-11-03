@@ -1,4 +1,4 @@
-import { Navigate, useNavigate, useParams } from "react-router-dom"
+import { useNavigate, useParams } from "react-router-dom"
 import Navbar from "../../Components/Navbar/Navbar"
 import './SingleProduct.css'
 import axios from "axios"
@@ -40,6 +40,7 @@ const singleProduct = () => {
             <p className="product-description">{product.productDescription} </p>
             <p className="product-material">{product.productMaterial}</p>
             <button onClick={deleteProduct}>Delete</button>
+            <button onClick={() => navigate(`/editProduct/${product.id}`)}>Edit</button>
             </div>
     </>
   )
