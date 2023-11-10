@@ -1,8 +1,11 @@
-# React + Vite
+# Product Management System (React)
+Introduction
+Welcome to the Product Management System, a web application built using React that allows you to efficiently manage and organize your products. This system provides a user-friendly interface for adding, editing, and deleting products, as well as visualizing key product details.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features:
 
-Currently, two official plugins are available:
+Intuitive Dashboard: A centralized dashboard to get an overview of all products at a glance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Product CRUD Operations: Easily add, edit, and delete products with just a few clicks.
+
+Responsive Design: The system is designed to work seamlessly on various devices, ensuring a great user experience on desktops, tablets, and mobile devices.
